@@ -1,4 +1,4 @@
-# NANOURL - A URL Shortener Django App
+# Journal - A Blog Article App
 `It's a basic blog PWA created using javascipt's most popular web library React.js.`
 
 ### Tech Stack
