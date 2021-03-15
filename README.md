@@ -1,10 +1,12 @@
-# Journal - A Blog Article App
-`It's a basic blog PWA created using javascipt's most popular web library React.js.`
+# JOURNAL - A Blog Article App
+`It's a basic blog PWA created using MERN stack.`
 
 ### Tech Stack
 * Front-end: React.js
 * Backend: Node.js using Express
 * Database: MongoDB
+* Password Hashing: Bcrypt and Salt
+* Image Upload : Multer
 
 
 ### Feature
@@ -16,9 +18,11 @@
 ## Front-end
 
 ### How to run
-In the project directory,you have to run the following commands:
+In the project journal directory, you have to run the following commands:
 
 ```bash
+    $ cd journal
+
     $ npm install
 
     $ npm start
@@ -63,14 +67,25 @@ Run this command to get a full list of the options available:
 
 ### How to run
 
-Once we have installed Node.js, export the private keys using : 
+First, we have to installed Node.js, which can be done by :
+
+``` bash
+    sudo apt-get install node.js
+```
+
+and install npm packages by:
+
+```bash
+    npm install
+```
+
+
+Then, export the private keys using : 
 
 ``` bash
     $ export journal_jwtPrivateKey=<Any Keyname>
 ```
-
     and then run
-    
 ``` bash
     $ node index.js
 ```
