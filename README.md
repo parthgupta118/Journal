@@ -68,7 +68,9 @@ Once we have installed Node.js, export the private keys using :
 ``` bash
     $ export journal_jwtPrivateKey=<Any Keyname>
 ```
+
     and then run
+    
 ``` bash
     $ node index.js
 ```
