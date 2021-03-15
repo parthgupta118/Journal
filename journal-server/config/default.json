@@ -1,0 +1,4 @@
+{
+    "jwtPrivateKey": "",
+    "mongoURI": "mongodb+srv://parth123:parth123@mernstack.zlauu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+}
